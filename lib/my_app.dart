@@ -1,5 +1,4 @@
 import 'package:chat_bot/channel_list_page.dart';
-import 'package:chat_bot/channel_page.dart';
 import 'package:flutter/material.dart';
 import 'package:stream_chat_flutter/stream_chat_flutter.dart';
 import 'package:stream_chat_localizations/stream_chat_localizations.dart';
@@ -29,7 +28,7 @@ class MyApp extends StatelessWidget {
         child: const ChannelListPage(),
         channel: channel,
       ),
-      locale: Locale("hi"), //Primary language set karne ke liye
+      locale: const Locale("hi"), //Primary language set karne ke liye
       supportedLocales: const [
         Locale("en"), //english
         Locale("hi"), //hindi

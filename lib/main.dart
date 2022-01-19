@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:stream_chat_flutter/stream_chat_flutter.dart';
-import 'package:stream_chat_localizations/stream_chat_localizations.dart';
 import 'my_app.dart';
 
 const apiKey = "b67pax5b2wdq";
